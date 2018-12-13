@@ -10,16 +10,55 @@
 		43E8413421C2A3780015C0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E8413321C2A3780015C0BA /* Assets.xcassets */; };
 		43E8413721C2A3780015C0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8413521C2A3780015C0BA /* LaunchScreen.storyboard */; };
 		43E8414121C2A3CA0015C0BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8414021C2A3CA0015C0BA /* AppDelegate.swift */; };
-		43E8414A21C2A6550015C0BA /* View+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8414921C2A6550015C0BA /* View+Constraints.swift */; };
+		43E8414421C2A3F60015C0BA /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8414321C2A3F60015C0BA /* NewPostViewController.swift */; };
+		43E8414A21C2A6550015C0BA /* View+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8414921C2A6550015C0BA /* View+Autolayout.swift */; };
+		43E8414E21C2B34E0015C0BA /* NewPostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8414D21C2B34E0015C0BA /* NewPostDataSource.swift */; };
+		43E8415121C2B3ED0015C0BA /* NewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8415021C2B3ED0015C0BA /* NewPost.swift */; };
+		43E8415521C2BCD90015C0BA /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8415421C2BCD80015C0BA /* TextTableViewCell.swift */; };
+		43E8415821C2BD9B0015C0BA /* LabeledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8415721C2BD9B0015C0BA /* LabeledTextField.swift */; };
+		43E8415B21C2BE000015C0BA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8415A21C2BE000015C0BA /* TextField.swift */; };
+		43E8415F21C383EE0015C0BA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8415E21C383EE0015C0BA /* Colors.swift */; };
+		43E8416221C384B20015C0BA /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8416121C384B20015C0BA /* Font.swift */; };
+		43E8416621C38BE40015C0BA /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8416521C38BE40015C0BA /* PickerView.swift */; };
+		43E8416B21C39ECE0015C0BA /* Strings+Plural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8416A21C39ECE0015C0BA /* Strings+Plural.swift */; };
+		43E8416D21C3AF3A0015C0BA /* DoubleTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8416C21C3AF3A0015C0BA /* DoubleTextTableViewCell.swift */; };
+		43E8416F21C3C6C40015C0BA /* UIView+GlobalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8416E21C3C6C40015C0BA /* UIView+GlobalFrame.swift */; };
+		43E8417521C3D9460015C0BA /* IsoCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8417221C3D9460015C0BA /* IsoCountries.swift */; };
+		43E8417621C3D9460015C0BA /* IsoCountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8417321C3D9460015C0BA /* IsoCountryCodes.swift */; };
+		43E8417721C3D9460015C0BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43E8417421C3D9460015C0BA /* README.md */; };
+		43E8417D21C3E5AF0015C0BA /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8417921C3E5AF0015C0BA /* LocationSearchResultsViewController.swift */; };
+		43E8417E21C3E5AF0015C0BA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8417A21C3E5AF0015C0BA /* Location.swift */; };
+		43E8417F21C3E5AF0015C0BA /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8417B21C3E5AF0015C0BA /* LocationPickerViewController.swift */; };
+		43E8418021C3E5AF0015C0BA /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8417C21C3E5AF0015C0BA /* SearchHistoryManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24CEDE6C90FE118E3BD6C372 /* Pods_Post.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Post.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E8412921C2A3770015C0BA /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E8413321C2A3780015C0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E8413621C2A3780015C0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E8413821C2A3780015C0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E8414021C2A3CA0015C0BA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43E8414921C2A6550015C0BA /* View+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Constraints.swift"; sourceTree = "<group>"; };
+		43E8414321C2A3F60015C0BA /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		43E8414921C2A6550015C0BA /* View+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Autolayout.swift"; sourceTree = "<group>"; };
+		43E8414D21C2B34E0015C0BA /* NewPostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostDataSource.swift; sourceTree = "<group>"; };
+		43E8415021C2B3ED0015C0BA /* NewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPost.swift; sourceTree = "<group>"; };
+		43E8415421C2BCD80015C0BA /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		43E8415721C2BD9B0015C0BA /* LabeledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTextField.swift; sourceTree = "<group>"; };
+		43E8415A21C2BE000015C0BA /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		43E8415E21C383EE0015C0BA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		43E8416121C384B20015C0BA /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		43E8416521C38BE40015C0BA /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		43E8416A21C39ECE0015C0BA /* Strings+Plural.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Plural.swift"; sourceTree = "<group>"; };
+		43E8416C21C3AF3A0015C0BA /* DoubleTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTextTableViewCell.swift; sourceTree = "<group>"; };
+		43E8416E21C3C6C40015C0BA /* UIView+GlobalFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+GlobalFrame.swift"; sourceTree = "<group>"; };
+		43E8417221C3D9460015C0BA /* IsoCountries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsoCountries.swift; sourceTree = "<group>"; };
+		43E8417321C3D9460015C0BA /* IsoCountryCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsoCountryCodes.swift; sourceTree = "<group>"; };
+		43E8417421C3D9460015C0BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		43E8417921C3E5AF0015C0BA /* LocationSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsViewController.swift; sourceTree = "<group>"; };
+		43E8417A21C3E5AF0015C0BA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		43E8417B21C3E5AF0015C0BA /* LocationPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
+		43E8417C21C3E5AF0015C0BA /* SearchHistoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistoryManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,11 +72,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0226B10077C4AB84E7A51F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CEDE6C90FE118E3BD6C372 /* Pods_Post.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43E8412021C2A3770015C0BA = {
 			isa = PBXGroup;
 			children = (
 				43E8412B21C2A3770015C0BA /* Post */,
 				43E8412A21C2A3770015C0BA /* Products */,
+				0C0226B10077C4AB84E7A51F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +100,9 @@
 		43E8412B21C2A3770015C0BA /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				43E8417021C3D9390015C0BA /* ThirdParty */,
 				43E8414621C2A62B0015C0BA /* Common */,
+				43E8414221C2A3E50015C0BA /* NewPost */,
 				43E8413F21C2A3CA0015C0BA /* AppDelegate */,
 				43E8413E21C2A3970015C0BA /* Resources */,
 			);
@@ -77,9 +127,21 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		43E8414221C2A3E50015C0BA /* NewPost */ = {
+			isa = PBXGroup;
+			children = (
+				43E8415221C2BC9E0015C0BA /* Views */,
+				43E8414F21C2B3CD0015C0BA /* Models */,
+				43E8414321C2A3F60015C0BA /* NewPostViewController.swift */,
+				43E8414D21C2B34E0015C0BA /* NewPostDataSource.swift */,
+			);
+			path = NewPost;
+			sourceTree = "<group>";
+		};
 		43E8414621C2A62B0015C0BA /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				43E8416921C39EB10015C0BA /* Strings */,
 				43E8414721C2A6320015C0BA /* UIComponents */,
 			);
 			path = Common;
@@ -88,6 +150,10 @@
 		43E8414721C2A6320015C0BA /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				43E8416421C38BD60015C0BA /* PickerView */,
+				43E8416021C384A70015C0BA /* Font */,
+				43E8415D21C383CC0015C0BA /* Color */,
+				43E8415621C2BD8A0015C0BA /* TextField */,
 				43E8414821C2A6430015C0BA /* View */,
 			);
 			path = UIComponents;
@@ -96,9 +162,106 @@
 		43E8414821C2A6430015C0BA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				43E8414921C2A6550015C0BA /* View+Constraints.swift */,
+				43E8414921C2A6550015C0BA /* View+Autolayout.swift */,
+				43E8416E21C3C6C40015C0BA /* UIView+GlobalFrame.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		43E8414F21C2B3CD0015C0BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43E8415021C2B3ED0015C0BA /* NewPost.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43E8415221C2BC9E0015C0BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43E8415321C2BCA90015C0BA /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43E8415321C2BCA90015C0BA /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				43E8415421C2BCD80015C0BA /* TextTableViewCell.swift */,
+				43E8416C21C3AF3A0015C0BA /* DoubleTextTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		43E8415621C2BD8A0015C0BA /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				43E8415721C2BD9B0015C0BA /* LabeledTextField.swift */,
+				43E8415A21C2BE000015C0BA /* TextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		43E8415D21C383CC0015C0BA /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				43E8415E21C383EE0015C0BA /* Colors.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		43E8416021C384A70015C0BA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				43E8416121C384B20015C0BA /* Font.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		43E8416421C38BD60015C0BA /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				43E8416521C38BE40015C0BA /* PickerView.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		43E8416921C39EB10015C0BA /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				43E8416A21C39ECE0015C0BA /* Strings+Plural.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		43E8417021C3D9390015C0BA /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				43E8417821C3E5980015C0BA /* LocationPicker */,
+				43E8417121C3D9460015C0BA /* IsoCountryCodes */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		43E8417121C3D9460015C0BA /* IsoCountryCodes */ = {
+			isa = PBXGroup;
+			children = (
+				43E8417221C3D9460015C0BA /* IsoCountries.swift */,
+				43E8417321C3D9460015C0BA /* IsoCountryCodes.swift */,
+				43E8417421C3D9460015C0BA /* README.md */,
+			);
+			path = IsoCountryCodes;
+			sourceTree = "<group>";
+		};
+		43E8417821C3E5980015C0BA /* LocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				43E8417A21C3E5AF0015C0BA /* Location.swift */,
+				43E8417B21C3E5AF0015C0BA /* LocationPickerViewController.swift */,
+				43E8417921C3E5AF0015C0BA /* LocationSearchResultsViewController.swift */,
+				43E8417C21C3E5AF0015C0BA /* SearchHistoryManager.swift */,
+			);
+			path = LocationPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E8417721C3D9460015C0BA /* README.md in Resources */,
 				43E8413721C2A3780015C0BA /* LaunchScreen.storyboard in Resources */,
 				43E8413421C2A3780015C0BA /* Assets.xcassets in Resources */,
 			);
@@ -193,8 +357,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E8415521C2BCD90015C0BA /* TextTableViewCell.swift in Sources */,
+				43E8415F21C383EE0015C0BA /* Colors.swift in Sources */,
+				43E8416221C384B20015C0BA /* Font.swift in Sources */,
 				43E8414121C2A3CA0015C0BA /* AppDelegate.swift in Sources */,
-				43E8414A21C2A6550015C0BA /* View+Constraints.swift in Sources */,
+				43E8418021C3E5AF0015C0BA /* SearchHistoryManager.swift in Sources */,
+				43E8417E21C3E5AF0015C0BA /* Location.swift in Sources */,
+				43E8416B21C39ECE0015C0BA /* Strings+Plural.swift in Sources */,
+				43E8417D21C3E5AF0015C0BA /* LocationSearchResultsViewController.swift in Sources */,
+				43E8416F21C3C6C40015C0BA /* UIView+GlobalFrame.swift in Sources */,
+				43E8414E21C2B34E0015C0BA /* NewPostDataSource.swift in Sources */,
+				43E8416D21C3AF3A0015C0BA /* DoubleTextTableViewCell.swift in Sources */,
+				43E8416621C38BE40015C0BA /* PickerView.swift in Sources */,
+				43E8417F21C3E5AF0015C0BA /* LocationPickerViewController.swift in Sources */,
+				43E8417521C3D9460015C0BA /* IsoCountries.swift in Sources */,
+				43E8415B21C2BE000015C0BA /* TextField.swift in Sources */,
+				43E8415821C2BD9B0015C0BA /* LabeledTextField.swift in Sources */,
+				43E8415121C2B3ED0015C0BA /* NewPost.swift in Sources */,
+				43E8417621C3D9460015C0BA /* IsoCountryCodes.swift in Sources */,
+				43E8414A21C2A6550015C0BA /* View+Autolayout.swift in Sources */,
+				43E8414421C2A3F60015C0BA /* NewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,16 +514,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 949NT5KTS9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JF76X6NH3V;
 				INFOPLIST_FILE = "$(SRCROOT)/Post/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = itamilan.Post;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itamilan.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WilcardProvisioningProfile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,16 +534,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 949NT5KTS9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Post/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = itamilan.Post;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itamilan.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

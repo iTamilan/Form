@@ -13,9 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        configureWindow()
+        configureGlobalColors()
+        
         return true
     }
 
@@ -40,7 +43,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
+extension AppDelegate {
+    
+    private func configureWindow() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = rootViewController()
+        window?.backgroundColor = Color.tintColor
+        window?.makeKeyAndVisible()
+    }
+    
+    private func rootViewController() -> UIViewController {
+        
+        let newPostViewController = NewPostViewController()
+        let navigationViewController = UINavigationController(rootViewController: newPostViewController)
+        return navigationViewController
+    }
+    
+    private func configureGlobalColors() {
+        UIToolbar.appearance().barStyle = .black
+        UIToolbar.appearance().tintColor = Color.tintColor
+        
+        UINavigationBar.appearance().barStyle = .black
+        UINavigationBar.appearance().barTintColor = Color.brand
+        UINavigationBar.appearance().tintColor = Color.tintColor
+        UINavigationBar.appearance().isTranslucent = false
+        
+        UITextField.appearance().keyboardAppearance = .light
+//    
+//        
+//        NSDictionary *textTitleOptions = [NSDictionary dictionaryWithObjectsAndKeys:[MDColor brightWhiteColor], NSForegroundColorAttributeName, nil];
+//        [[UINavigationBar appearance] setTitleTextAttributes:textTitleOptions];
+//        
+//        [[UIScrollView appearance] setIndicatorStyle:UIScrollViewIndicatorStyleWhite];
+    }
+}
