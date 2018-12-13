@@ -1,0 +1,30 @@
+excluded:
+  - MobileDefenseTests
+  - MobileDefenseUITests
+  - Pods
+
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+disabled_rules:
+  - closing_brace
+  - line_length
+  - opening_brace
+  - trailing_whitespace
+  - file_length
+  - type_body_length
+  - valid_docs
+  - function_parameter_count
+  - cyclomatic_complexity
+  - trailing_comma
+  - function_body_length
+  - redundant_string_enum_value
+
+variable_name:
+  min_length: 1
+  max_length: 120
+
+type_name:
+  min_length: 2
+  max_length: 120
