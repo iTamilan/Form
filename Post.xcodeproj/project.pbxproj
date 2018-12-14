@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4329B01521C404A000EB8C87 /* CategoriesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329B01421C404A000EB8C87 /* CategoriesSelectionViewController.swift */; };
+		4329B01721C404F100EB8C87 /* CategoriesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329B01621C404F100EB8C87 /* CategoriesDataSource.swift */; };
+		4329B01B21C408E000EB8C87 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329B01A21C408E000EB8C87 /* CategoryCollectionViewCell.swift */; };
 		43E8413421C2A3780015C0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E8413321C2A3780015C0BA /* Assets.xcassets */; };
 		43E8413721C2A3780015C0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E8413521C2A3780015C0BA /* LaunchScreen.storyboard */; };
 		43E8414121C2A3CA0015C0BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8414021C2A3CA0015C0BA /* AppDelegate.swift */; };
@@ -34,6 +37,9 @@
 
 /* Begin PBXFileReference section */
 		24CEDE6C90FE118E3BD6C372 /* Pods_Post.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Post.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4329B01421C404A000EB8C87 /* CategoriesSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesSelectionViewController.swift; sourceTree = "<group>"; };
+		4329B01621C404F100EB8C87 /* CategoriesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDataSource.swift; sourceTree = "<group>"; };
+		4329B01A21C408E000EB8C87 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		43E8412921C2A3770015C0BA /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E8413321C2A3780015C0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E8413621C2A3780015C0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +86,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4329B01321C4046800EB8C87 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4329B01921C408C600EB8C87 /* Cell */,
+				4329B01421C404A000EB8C87 /* CategoriesSelectionViewController.swift */,
+				4329B01621C404F100EB8C87 /* CategoriesDataSource.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4329B01921C408C600EB8C87 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4329B01A21C408E000EB8C87 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		43E8412021C2A3770015C0BA = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +124,7 @@
 		43E8412B21C2A3770015C0BA /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				4329B01321C4046800EB8C87 /* Category */,
 				43E8417021C3D9390015C0BA /* ThirdParty */,
 				43E8414621C2A62B0015C0BA /* Common */,
 				43E8414221C2A3E50015C0BA /* NewPost */,
@@ -361,6 +386,7 @@
 				43E8415F21C383EE0015C0BA /* Colors.swift in Sources */,
 				43E8416221C384B20015C0BA /* Font.swift in Sources */,
 				43E8414121C2A3CA0015C0BA /* AppDelegate.swift in Sources */,
+				4329B01721C404F100EB8C87 /* CategoriesDataSource.swift in Sources */,
 				43E8418021C3E5AF0015C0BA /* SearchHistoryManager.swift in Sources */,
 				43E8417E21C3E5AF0015C0BA /* Location.swift in Sources */,
 				43E8416B21C39ECE0015C0BA /* Strings+Plural.swift in Sources */,
@@ -372,9 +398,11 @@
 				43E8417F21C3E5AF0015C0BA /* LocationPickerViewController.swift in Sources */,
 				43E8417521C3D9460015C0BA /* IsoCountries.swift in Sources */,
 				43E8415B21C2BE000015C0BA /* TextField.swift in Sources */,
+				4329B01B21C408E000EB8C87 /* CategoryCollectionViewCell.swift in Sources */,
 				43E8415821C2BD9B0015C0BA /* LabeledTextField.swift in Sources */,
 				43E8415121C2B3ED0015C0BA /* NewPost.swift in Sources */,
 				43E8417621C3D9460015C0BA /* IsoCountryCodes.swift in Sources */,
+				4329B01521C404A000EB8C87 /* CategoriesSelectionViewController.swift in Sources */,
 				43E8414A21C2A6550015C0BA /* View+Autolayout.swift in Sources */,
 				43E8414421C2A3F60015C0BA /* NewPostViewController.swift in Sources */,
 			);
