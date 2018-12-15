@@ -39,6 +39,6 @@ extension CategoriesDataSource: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
+        return CategoryCollectionViewCell()
     }
 }
